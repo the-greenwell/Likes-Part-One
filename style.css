@@ -1,0 +1,25 @@
+main {
+    padding: 5em 10em;
+}
+
+.card {
+    border: 1px solid black;
+    width: 25em;
+    padding: 0 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row > button {
+    height: 2em;
+    width: 5em;
+    box-shadow: 2px 2px 2px black;
+}
+
+.title {
+    font-size: 1.25em;
+}
