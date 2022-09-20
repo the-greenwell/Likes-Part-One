@@ -14,12 +14,19 @@ main {
     align-items: center;
 }
 
-.row > button {
+.likes > button {
     height: 2em;
     width: 5em;
     box-shadow: 2px 2px 2px black;
+    margin-left: 2em;
 }
 
 .title {
     font-size: 1.25em;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
